@@ -1,0 +1,14 @@
+---
+email_suffix: '@oregonstate.edu'
+database:
+  path: '/nfs/stak/users/waldroha/public_html/gradebook/gradebook.db'
+
+www:
+  auth:
+    key: 'random_private_signing_key'
+    server: 'https://login.oregonstate.edu/idp/profile/cas'
+    domain: 'web.engr.oregonstate.edu'
+    path: '/~waldroha/'
+    regex: '[a-z0-9]+'
+    days: 120
+
