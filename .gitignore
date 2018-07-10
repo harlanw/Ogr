@@ -1,3 +1,4 @@
 www/config.php
 *.db
-settings.yml
+/settings.yml
+.gitignore
