@@ -268,7 +268,7 @@ Ogr is an anonymous, static, gradebook generator.
 
 =over 8
 
-=item ogr config --from settings-yml www/config.php
+=item ogr config --from settings.yml www/config.php
 
 =item ogr build --from gradebook.csv gradebook.html
 
@@ -278,7 +278,7 @@ Ogr is an anonymous, static, gradebook generator.
 
 =head1 LICENSE
 
-Ogr is released under the MIT License.
+Ogr is released under the Apache License, Version 2.0.
 
 =head1 AUTHOR
 

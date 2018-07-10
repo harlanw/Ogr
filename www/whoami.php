@@ -2,7 +2,7 @@
 
 const UNICODE_COOKIE = '&#x1F36A;';
 
-if (isset($_GET['readonly']) == false)
+if (isset($_GET['peek']) == false)
 {
 	require_once('autologin.php');
 
@@ -45,7 +45,7 @@ $html = "
 	<div id='emoji' title='$text'>
 		<span>$emoji</span>
 	</div>
-	<div id='account' class='column'>
+	<div id='account' class='col'>
 		<b>whoami:</b> $user[id]</span><br>
 		<hr>
 		<b>base64:</b> <span $style>$user[hash64]</span><br>
